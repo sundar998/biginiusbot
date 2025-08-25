@@ -4,13 +4,13 @@ import re
 class Config:
     # Required env vars
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
-    API_ID = int(os.environ.get("API_ID", "0"))
+    API_ID = int(os.environ.get("API_ID", ""))
     API_HASH = os.environ.get("API_HASH", "")
     MONGO_URL = os.environ.get("MONGO_URL", "")
 
     # Your Telegram database channel ID (add bot as admin there)
     # Example: -1001234567890
-    DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1001234567890"))
+    DATABASE_CHANNEL = int(os.environ.get("DATABASE_CHANNEL", "-1002828848208"))
 
     # Welcome image URL
     WELCOME_PIC = os.environ.get("WELCOME_PIC", "https://envs.sh/F-V.jpg")
